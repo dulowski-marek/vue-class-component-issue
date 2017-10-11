@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        ".vscode": true,
+        "node_modules": true,
+        ".build": true,
+        "**/.gitkeep": true,
+
+        "src/**/*.js*": true
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "target": "es2015",
+    "moduleResolution": "node",
+    "sourceMap": true,
+
+    "lib": [
+      "es2015",
+      "es2016",
+      "es2017",
+      "dom"
+    ],
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+
+    "typeRoots": [
+      "node_modules/@types",
+      "src/@types"
+    ],
+
+    "baseUrl": ".",
+    "paths": {
+      "@app/*": ["src/app/*"]
+    }
+  },
+
+  "exclude": [
+    "node_modules"
+  ]
+}
